@@ -440,18 +440,18 @@
       <tokenizer class="solr.WhitespaceTokenizerFactory"/>
     </analyzer>
   </fieldType>
-  <field name="BILL_TO_LOC_CODE" type="string" indexed="true" stored="true"/>
-  <field name="Bill_To_Location_Name" type="string" indexed="true" stored="true"/>
-  <field name="CATEGORY_ID" type="string" indexed="true" stored="true"/>
-  <field name="ITEM_CODE" type="string" indexed="true" stored="true"/>
-  <field name="LOCATION_CODE" type="string" indexed="true" stored="true"/>
-  <field name="Location_Name" type="string" indexed="true" stored="true"/>
-  <field name="Major_Category" type="string" indexed="true" stored="true"/>
+  <field name="BILL_TO_LOC_CODE" type="string" omitNorms="true" indexed="true" stored="true"/>
+  <field name="Bill_To_Location_Name" type="string" omitNorms="true" indexed="true" stored="true"/>
+  <field name="CATEGORY_ID" type="string" omitNorms="true" indexed="true" stored="true"/>
+  <field name="ITEM_CODE" type="string" omitNorms="true" indexed="true" stored="true"/>
+  <field name="LOCATION_CODE" type="string" omitNorms="true" indexed="true" stored="true"/>
+  <field name="Location_Name" type="string" omitNorms="true" indexed="true" stored="true"/>
+  <field name="Major_Category" type="string" omitNorms="true" indexed="true" stored="true"/>
   <field name="Minor_Category" type="string" omitNorms="true" indexed="true" stored="true"/>
-  <field name="P0_HEADER_ID" type="string" indexed="true" stored="true"/>
-  <field name="Po_Approver_Name" type="string" indexed="true" stored="true"/>
-  <field name="Po_Date" type="pdate" indexed="true" stored="true"/>
-  <field name="Po_Number" type="string" indexed="true" stored="true"/>
+  <field name="P0_HEADER_ID" type="string" omitNorms="true" indexed="true" stored="true"/>
+  <field name="Po_Approver_Name" type="string" omitNorms="true" indexed="true" stored="true"/>
+  <field name="Po_Date" type="pdate" omitNorms="true" indexed="true" stored="true"/>
+  <field name="Po_Number" type="string" omitNorms="true" indexed="true" stored="true"/>
   <field name="Po_Requester_Name" type="string" omitNorms="true" indexed="true" stored="true"/>
   <field name="Quantity" type="string" omitNorms="true" indexed="true" stored="true"/>
   <field name="SHIP_TO_LOC_CODE" type="string" omitNorms="true" indexed="true" stored="true"/>
@@ -460,7 +460,7 @@
   <field name="UNIT_MEAS_LOOKUP_CODE" type="string" omitNorms="true" indexed="true" stored="true"/>
   <field name="VENDOR_CITY_ID" type="string" omitNorms="true" indexed="true" stored="true"/>
   <field name="VENDOR_CITY_NAME" type="text_general" omitNorms="true" indexed="true" stored="true"/>
-  <field name="VENDOR_NAME" type="text_general" indexed="true" stored="true"/>
+  <field name="VENDOR_NAME" type="text_general" omitNorms="true" indexed="true" stored="true"/>
   <field name="VENDOR_NUMBER" type="string" omitNorms="true" indexed="true" stored="true"/>
   <field name="_root_" type="string" docValues="false" indexed="true" stored="false"/>
   <field name="_src_" type="string" indexed="false" stored="true"/>
