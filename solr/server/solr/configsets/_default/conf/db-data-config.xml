@@ -1,0 +1,30 @@
+<dataConfig>
+<dataSource type="JdbcDataSource" 
+            driver="com.mysql.jdbc.Driver"
+            url="jdbc:mysql://13.127.188.55:6603/Voltuswave" 
+            user="aws" 
+            password="Apple#123"/>
+<document>
+  <entity name="LeavesView"  
+    pk="LeaveId"
+    query="select * from LeavesView"  
+    >      
+  </entity>
+  <entity name="Concessionsview"  
+    pk="ConcessionId"
+    query="select * from Concessionsview"  
+    >      
+  </entity>
+ <entity name="UsersView"  
+    pk="vwUserIdBinary"
+    query="select * from UsersView"  
+    >
+  </entity>
+ <entity name="StudentsView"  
+    pk="StudentId"
+    query="select * from Students"  
+    >
+  </entity>
+</document>
+</dataConfig>
+
